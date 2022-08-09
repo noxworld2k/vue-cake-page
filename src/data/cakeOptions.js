@@ -44,4 +44,4 @@ export const cakeOptions = [
         desc: "Efektowny tort w pastelowych kolorach, połączenie ulotności i elegancji"
     }
 ]
-export const masaOptions = await fetch(`https://www.przykladowyadres.pl/api/v1/products/`).then(res => res.json())
+// export const masaOptions = await fetch(`https://www.przykladowyadres.pl/api/v1/products/`).then(res => res.json())

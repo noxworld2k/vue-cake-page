@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 h1, h2, h3, h4, h5, h6, p {
   color: #980440;
 }
@@ -38,6 +38,28 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: rgba(0, 0, 0, 0);
   padding: 0 20px;
   height: 100px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  a {
+    color: #980440;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: #ffffff;
+      background-color: #980440;
+    }
+  }
 }
 
 </style>
