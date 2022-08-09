@@ -1,26 +1,76 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <router-view/>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<style lang="scss">
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+$color-primary: #980440;
+$color-secondary: #fff;
+$color-tertiary: #000000;
+$font-primary: 'Open Sans', sans-serif;
+* {
+  font-family: $font-primary;
+  color: $color-primary;
+  text-decoration: none;
+}
+header, footer, main, section {
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 1.2rem;
+  @media screen and (min-width: 1080px) {
+    width: 1080px;
   }
 }
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.btn, .button__submit {
+  background-color: #980440;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-size: 16px;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.section-100vh {
+  height: 100vh;
 }
 </style>
