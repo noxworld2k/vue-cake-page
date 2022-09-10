@@ -1,5 +1,5 @@
 <template>
-  <section class="contact">
+  <section class="container contact">
     <div>
       <h1>Skontaktuj się z nami lub
         <button class="btn" @click="orderFormToggle">Złóż zamówienie</button>
@@ -7,6 +7,9 @@
     </div>
     <div class="contact__form" v-if="orderForm === false">
       <form ref="form" @submit.prevent="sendEmail">
+        <div>
+
+        </div>
         <label for="name">
           Imię i nazwisko
         </label>
@@ -163,6 +166,7 @@ export default {
   margin: 0 auto;
   width: 100%;
   background-image: url(../assets/img/background.png);
+  background-size: cover;
 }
 
 .contact__form {
@@ -182,6 +186,11 @@ export default {
 
     label, input {
       margin-bottom: 10px;
+    }
+    input, textarea {
+      border: 1px solid rgb(151, 4, 63);
+      border-radius: 5px;
+      padding: 5px;
     }
   }
 
