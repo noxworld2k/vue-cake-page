@@ -96,7 +96,7 @@ export default {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 110vh;
+  height: 90vh;
 }
 .flex {
   display: flex;

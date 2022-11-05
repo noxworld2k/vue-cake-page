@@ -1,0 +1,168 @@
+{
+  "cakeOption": [
+    {
+      "id": 1,
+      "name": "TRADYCYJNY",
+      "price": 10.0,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "OMBRE",
+      "price": 10.0,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "ANGIELSKI",
+      "price": 10.0,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "name": "BEZA PAWŁOWA",
+      "price": 10.0,
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "name": "DEEP CAKE",
+      "price": 10.0,
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "name": "NAGI TORT",
+      "price": 10.0,
+      "quantity": 1
+    }
+  ],
+  "biszkoptOption": [
+    {
+      "id": 1,
+      "name": "BISZKOPT TRADYCYJNY",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "BISZKOPT Z KAWĄ",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "BISZKOPT Z KAKAO",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "name": "BISZKOPT Z KAKAO I KAWĄ",
+      "price": 0.0,
+      "quantity": 1
+    }
+  ],
+  "masaOption": [
+    {
+      "id": 1,
+      "name": "MASA TRADYCYJNA",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "MASA Z KAWĄ",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "MASA Z KAKAO",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "name": "MASA OWOCOWA",
+      "price": 0.0,
+      "quantity": 1
+    }
+  ],
+  "fruitsOptions": [
+    {
+      "id": 1,
+      "name": "BRAK",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "BANAN",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "name": "CZERESNIA",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "name": "GRUSZKA",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "name": "JABŁKO",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "name": "KIWI",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "name": "MALINY",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 12,
+      "name": "MANGO",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 13,
+      "name": "WIŚNIA",
+      "price": 0.0,
+      "quantity": 1
+    }
+  ],
+  "decorationOptions": [
+    {
+      "id": 1,
+      "name": "BRAK",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "PERSONALIZOWANY",
+      "price": 0.0,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "WG AUTORA",
+      "price": 0.0,
+      "quantity": 1
+    }
+  ]
+}

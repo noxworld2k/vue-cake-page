@@ -5,9 +5,9 @@
       <div class="main__container-box">
         <h1>Pracownia tortów artystycznych,
           w której spełniają się słodkie marzenia.
-          Sprawdź nasze realizację.
+          Sprawdź naszą ofertę.
         </h1>
-        <router-link class="btn" to="/gallery">Galeria </router-link>
+        <a class="btn" href="/oferta">Oferta </a>
 
       </div>
       <div class="main__container-box">

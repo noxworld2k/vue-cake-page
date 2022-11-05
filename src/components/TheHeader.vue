@@ -6,9 +6,15 @@
     </div>
     <div>
       <ul class="header__nav">
-        <router-link class="header__nav-item" to="/home" >Strona Główna</router-link>
-        <router-link class="header__nav-item" to="/gallery" >Galeria Realizacji</router-link>
-        <router-link class="header__nav-item" to="/contact" >Kontakt</router-link>
+        <li>
+          <a class="header__nav-item" href="/home" >Strona Główna</a>
+        </li>
+        <li>
+          <a class="header__nav-item" href="/gallery" >Galeria Realizacji</a>
+        </li>
+        <li>
+          <a class="header__nav-item" href="/contact" >Kontakt</a>
+        </li>
       </ul>
     </div>
   </div>
