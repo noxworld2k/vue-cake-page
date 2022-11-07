@@ -1,5 +1,5 @@
 # torty
-
+Live at https://majowe-slodkosci.netlify.app/
 ## Project setup
 ```
 npm install
